@@ -53,7 +53,14 @@
     display: flex;
     align-items: center;
     margin-left: 40px;
+    transition: 0.5s;
 }
+
+.display-home .player-item-focused .descrizione {
+    font-size: 28px;
+    transition: 0.5s;
+}
+
 
 .display-home .player-item {
     background: radial-gradient(86.04% 100% at 50% 0%, #596165 0%, #43494C 100%);

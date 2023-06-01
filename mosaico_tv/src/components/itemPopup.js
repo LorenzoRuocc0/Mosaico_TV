@@ -65,7 +65,7 @@ const ItemPopup = (props) => {
             className={"popup-scrollable-container"}
             focusedClassname={"popup-focused"}
             onEnterDown={onEnterPressPopup}
-            height="800px"
+            height={"800px"}
             onScroll={handleScroll}
             index={props.index}
             scrollOffset={20}

@@ -123,6 +123,7 @@
     transform: translateZ(0);
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+    scroll-snap-type: x mandatory;
     scroll-padding-top: 10px;
     scroll-padding-bottom: 10px;
     width: 93%;

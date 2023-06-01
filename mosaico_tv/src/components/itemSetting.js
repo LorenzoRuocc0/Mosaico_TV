@@ -115,10 +115,10 @@ const ItemSetting = (props) => {
                 <ScrollableArea
                     isScrollableVisible={true}
                     setScrollableVisible={setScrollableVisible}
-                    className={props.isPopup ? "popupScrollableContainer" : "scrollableContainer"}
-                    focusedClassname={props.isPopup ? "popupFocused" : "scrollFocused"}
+                    className={"scrollableContainer"}
+                    focusedClassname={"scrollFocused"}
                     onEnterDown={onEnterPressScrollable}
-                    height="470px"
+                    height={"470px"}
                     onScroll={handleScroll}
                     index={props.index}
                     scrollOffset={20}
