@@ -51,7 +51,7 @@ const Dettagli = (props) => {
 
     useEffect(() => {
         const KeyPressed = (e) => {
-            if ((e.keyCode === 8 || e.keyCode === 461)) {
+            if ((e.keyCode === 8 || e.keyCode === 461 || e.keyCode === 10009)) {
                 if (props.showDetails && !isVideoShowedRef.current) {
                     props.setShowDetails(false);
                     props.focusTo(window.previousFocus);

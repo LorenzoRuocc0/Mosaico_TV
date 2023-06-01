@@ -49,7 +49,7 @@ const Catalogo = (props) => {
 
     useEffect(() => {
         const KeyPressed = (e) => {
-            if ((e.keyCode === 8 || e.keyCode === 461) && !props.showDetails) {
+            if ((e.keyCode === 8 || e.keyCode === 461 || e.keyCode === 10009) && !props.showDetails) {
                 props.focusTo("focusable-item-navbar-0");
             }
         };

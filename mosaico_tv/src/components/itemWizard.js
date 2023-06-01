@@ -11,7 +11,7 @@ const ItemWizard = (props) => {
 
     useEffect(() => {
         const KeyPressed = (e) => {
-            if (e.keyCode === 8 || e.keyCode === 461) {
+            if (e.keyCode === 8 || e.keyCode === 461 || e.keyCode === 10009) {
                 props.focusTo(window.previousFocusSetting);
                 props.setShowWizard(false)
             }

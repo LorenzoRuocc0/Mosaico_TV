@@ -93,7 +93,7 @@ export const VideoJS = (props) => {
 
     console.log("isLive = ", props.isLive);
     const KeyPressed = (e) => {
-      if (e.keyCode === 8 || e.keyCode === 461) {
+      if (e.keyCode === 8 || e.keyCode === 461 || e.keyCode === 10009) {
         props.focusTo("focusable-item-dettagli-player-0");
         props.setIsVideoShowed(false);
         console.log("focus to item video 0");
