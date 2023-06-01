@@ -1,0 +1,140 @@
+.settings-container {
+    height: 810px;
+
+}
+
+.text-area {
+    font-size: 28px;
+}
+
+.title-settings {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: -0.333333px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.horizontal-settings {
+    margin-top: 130px;
+    margin-left: 100px;
+    height: 1300px;
+}
+
+
+
+
+.nome {
+    width: 1393px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.setting-item .nome {
+    background: rgba(255, 255, 255, 0.35);
+    /* mix-blend-mode: normal; */
+    /* box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.5); */
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+
+
+
+}
+
+.setting-item-focused .nome {
+    background: rgba(255, 255, 255, 1);
+    /* box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.5); */
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    z-index: 10;
+    position: relative;
+
+}
+
+.setting-item-focused .nome {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.333333px;
+    color: #414141;
+    transition: 0.2s;
+}
+
+.setting-item .nome {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.333333px;
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+
+
+
+
+.overlay-popup {
+    width: 850px;
+    position: absolute;
+    height: 900px;
+    background-color: #f5f5f5f0;
+    margin-left: 270px;
+    top: 111px;
+    z-index: 299;
+    border-radius: 20px;
+}
+
+.popup-focused {
+    height: 825px;
+    width: 750px;
+    color: #282828;
+    opacity: 0.7;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    overflow: hidden;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.scroll {
+    height: 500px;
+    width: 1393px;
+    border: 2px solid transparent;
+    overflow: hidden;
+    font-size: 30px;
+
+}
+
+.popup-scrollable-container {
+    overflow-y: auto;
+    overflow-x: auto;
+    transform: translateZ(0);
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 10px;
+    scroll-padding-bottom: 10px;
+    width: 93%;
+    margin-left: 35px;
+    padding-top: 22px;
+}
+
+.popup-index {
+    background-color: rgba(0, 0, 0, 0.416);
+    width: 1920px;
+    height: 1080px;
+    top: 0;
+    position: fixed;
+    left: 0;
+}

@@ -1,0 +1,27 @@
+html{
+    background: radial-gradient(106.97% 100% at 50% 100%, #3C515C 0%, #000000 100%);
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+.App{
+    width: 1920px;
+    height: 1080px;
+    display : flex;
+    flex-direction: row;
+    background: radial-gradient(106.97% 100% at 50% 100%, #3C515C 0%, #000000 100%);
+    
+
+}
+
+.navigation-bar{
+    width:170px ;
+}
+
+.content{
+    margin-left: 63px;
+    margin-top: 58px;
+    width: 1950px;
+}
+
+

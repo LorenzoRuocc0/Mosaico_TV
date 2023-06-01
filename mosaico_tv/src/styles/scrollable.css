@@ -1,0 +1,42 @@
+.app-container {
+    color: black;
+    background-color: transparent;
+    margin-top: -500px;
+    margin-left: -400px;
+}
+
+.scrollFocused {
+    height: 500px;
+    width: 1393px;
+    background: #D8D8D8;
+    color:#282828;
+    opacity: 0.7;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    overflow: hidden;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: -36px;
+}
+
+.scroll {
+    height: 500px;
+    width: 1393px;
+    border: 2px solid transparent;
+    overflow: hidden;
+    font-size: 30px;
+}
+
+.scrollableContainer {
+    overflow-y: auto;
+    overflow-x: auto;
+    transform: translateZ(0);
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 10px;
+    scroll-padding-bottom: 10px;
+    width: 93%;
+    margin-left: 35px;
+    padding-top: 22px;
+}

@@ -1,0 +1,128 @@
+.grid-external {
+    height: 1080px;
+}
+
+.container-home-external {
+    height: 605px;
+}
+
+.player-container {
+    height: 475px;
+    margin-bottom: 33px;
+}
+
+
+.grid-container {
+    height: 605px;
+    width: 1680px;
+
+}
+
+
+.display-home {
+    display: flex;
+    height: 475px;
+    width: 1656px;
+    border-radius: 15px;
+    background: radial-gradient(86.04% 100% at 50% 0%, #596165 0%, #43494C 100%);
+
+}
+
+.display-home .info {
+    display: flex;
+    align-items: flex-end;
+    height: 175px;
+    margin-top: 285px;
+    border-radius: 13px;
+    width: 1665px;
+    position: absolute;
+}
+
+.display-home .icona-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+.display-home .descrizione {
+    width: 70%;
+    height: 100%;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.display-home .player-item {
+    background: radial-gradient(86.04% 100% at 50% 0%, #596165 0%, #43494C 100%);
+    height: 475px;
+    width: 1656px;
+    min-width: 1656px;
+    max-width: 1656px;
+    margin-right: 38px;
+    transition: 0.7s;
+    border-radius: 12px;
+
+}
+
+.display-home .player-item-focused {
+    background: radial-gradient(86.04% 100% at 50% 0%, #596165 0%, #43494C 100%);
+    height: 475px;
+    width: 1656px;
+    min-width: 1656px;
+    max-width: 1656px;
+    z-index: 1;
+    transition: 0.4s;
+    border-radius: 12px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.25px;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+/* liste orizzontali*/
+
+.horizontal-lists {
+    width: 1656px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.horizontal-container {
+    width: 1965px;
+    height: 324px;
+    display: flex;
+}
+
+.horizontal-inner {
+    width: 1965px;
+    height: 324px;
+}
+
+.display-home  .background-shadow {
+    border-radius: 12px;
+    height: 475px;
+    width: 1656px;
+    min-width: 1656px;
+    max-width: 1656px;
+    position: absolute;
+    animation: changeBackgroundFilm 0.3s;
+}
+
+.display-home .img-background-home {
+    height: 475px;
+    width: 1656px;
+    min-width: 1656px;
+    max-width: 1656px;
+    position: relative;
+    border-radius: 13px;
+}

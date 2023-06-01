@@ -1,0 +1,40 @@
+.loader-container {
+  display: flex;
+  align-items: center;
+  width: 1920px;
+  height: 1080px;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.loader-overlay {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(106.97% 100% at 50% 100%, #3C515C 0%, #000000 100%);
+  z-index: 9999;
+  display: flex;
+  transition: 0.3s;
+}

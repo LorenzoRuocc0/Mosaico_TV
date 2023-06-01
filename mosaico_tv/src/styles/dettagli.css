@@ -1,0 +1,32 @@
+.dettagli-container {
+    height: 764px;
+    width: 1830px;
+    margin-bottom: 33px;
+}
+
+
+
+.dettagli-overlay {
+    background: radial-gradient(106.97% 100% at 50% 100%, #3C515C 0%, #000000 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    z-index: 9998;
+}
+
+.content-dettagli{
+    margin-left: 60px;
+    margin-top: 83px;
+}
+
+.display-dettagli .img-background-dettaglio{
+    width: 1810px;
+    min-width: 1810px;
+    max-width: 1810px;
+    height: 648px;
+    position: relative;
+    border-radius: 13px;
+}
+
